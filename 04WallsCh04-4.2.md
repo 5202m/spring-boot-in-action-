@@ -199,3 +199,5 @@ __代码清单4-4 测试带有用户身份验证的安全加固方法__
 同样，此处没有启动Servlet容器来运行这些测试，Spring的Mock MVC取代了实际的Servlet容器。这样做的好处是测试方法运行相对较快。因为不需要等待服务器启动，而且不需要打开Web浏览器发送表单，所以测试比较简单快捷。
 
 不过，这并不是一个完整的测试。它比直接调用控制器方法要好，但它并没有真的在Web浏览器里执行应用程序，验证呈现出的视图。为此，我们需要启动一个真正的Web服务器，用真实浏览器来访问它。让我们来看看Spring Boot如何启动一个真实的Web服务器来帮助测试。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/04WallsCh04-4.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/04WallsCh04-4.3.md) |
