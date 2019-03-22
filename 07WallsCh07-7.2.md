@@ -105,3 +105,5 @@ __图7-4 获得端点列表__
 __图7-5 调用健康检查端点__
 
 请注意，这些端点返回的信息都是原始格式的，即未格式化过的JSON文档。虽然在shell里调用Actuator的端点不错，但输出结果很难阅读。就这个问题，自带的功能帮不上忙。但如果爱折腾，你也可以创建一个自定义的CRaSH shell命令，通过管道接受未格式化的JSON，然后美化输出。你总是可以剪切黏贴`endpoint`命令的输出，将其放入你喜欢的工具进行阅读或格式化。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.3.md) |
