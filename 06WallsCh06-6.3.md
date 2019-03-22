@@ -254,3 +254,5 @@ Grails和Spring Boot都旨在让开发者的生活更简单，大大简化基于
 在本章和第5章里，我们看到了如何结合Groovy和Spring Boot，消除Java语言无法避免的那些代码噪声。
 
 在第7章，我们要将关注点从开发Spring Boot应用程序转移到Spring Boot Actuator上，看看它如何帮助我们了解应用程序的运行情况。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/06WallsCh06-6.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.1.md) |
