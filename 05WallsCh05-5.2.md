@@ -51,10 +51,10 @@ com.h2database:h2=1.4.186
 > 你可能希望让`@GrabMetadata`使用Spring IO平台（[http://platform.spring.io/platform/](http://platform.spring.io/platform/)）上定义的依赖版本。该平台提供了一套依赖和版本。明确哪个版本的Spring能和其他库的什么版本搭配使用。Spring IO平台提供的依赖和版本是Spring Boot已知依赖库的一个超集，包含了很多Spring应用程序经常用到的第三方库。
 
 >   如果你想在Spring IO平台上构建Spring Boot CLI应用程序，只需要在Groovy脚本中添加如下`@GrabMetadata`即可。
->```
+```
 @GrabMetadata('io.spring.platform:platform-versions:1.0.4.RELEASE')
 ```
->  这会覆盖CLI的默认依赖版本，使Spring IO平台定义的版本取而代之。
+这会覆盖CLI的默认依赖版本，使Spring IO平台定义的版本取而代之。
 
 你可能会有疑问，Grape又是从哪里获取所有这些依赖的呢？这是可配置的吗？让我们来看看你该如何管理Grape获取依赖的仓库集。
 
@@ -65,10 +65,14 @@ com.h2database:h2=1.4.186
 没有问题。`@GrabResolver`注解可以让你指定额外的仓库，用来获取依赖。
 
 举个例子，假设你想使用最新的Hibernate，而最新的Hibernate版本只能从JBoss的仓库里获取到。那么你需要通过`@GrabResolver`来添加仓库：
+
 ```
 @GrabResolver(name='jboss', root=
   'https://repository.jboss.org/nexus/content/groups/public-jboss')
 ```
+
 这里通过`name`属性将该解析器命名为jboss，通过`root`属性来指定仓库的URL。
 
 你已经了解了Spring Boot CLI是如何编译代码以及自动按需解析已知依赖库的。在`@Grab`的支持下，CLI可以解析各种它无法自动解析的依赖。基于CLI的应用程序无需Maven或Gradle构建说明文件（传统方式开发的Java应用程序需要这个文件）。但解析依赖和编译代码并不是构建过程的全部，项目的构建通常还要执行自动化测试，要是没有构建说明文件，又该如何运行测试呢？
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.3.md) |
