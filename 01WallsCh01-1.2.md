@@ -296,3 +296,5 @@ $ spring init -l
 你一定注意到了，尽管`spring init -l`列出了一些Initializr支持的参数，但并非所有参数都能直接为Spring Boot CLI的`init`命令所支持。举例来说，用CLI初始化项目时，你不能指定根包的名字，它默认为demo。`spring help init`会告诉你CLI的`init`命令都支持哪些参数。
 
 无论你是用Initializr的Web界面，在Spring Tool Suite里创建项目，还是用Spring Boot CLI来初始化项目，Spring Boot Initializr创建出来的项目都有相似的项目布局，和你之前开发过的Java项目没什么不同。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-1.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-1.3.md) |
