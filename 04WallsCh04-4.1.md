@@ -62,3 +62,5 @@ public class AddressServiceTests {
 我们有充分的理由说，在大多数情况下，为Spring Boot应用程序编写测试时应该用`@SpringApplicationConfiguration`代替`@ContextConfiguration`。在本章中，我们当然也会用`@SpringApplicationConfiguration`来为Spring Boot应用程序（包括那些面向前端的应用程序）编写测试。
 
 说到Web测试，这正是我们接下来要做的。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/04WallsCh04-4.2.md) |
