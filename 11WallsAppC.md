@@ -551,3 +551,5 @@ Data (DML) script resource reference.
 * `spring.velocity.view-names`：可解析的视图名称白名单。
 * `spring.view.prefix`：Spring MVC视图前缀。
 * `spring.view.suffix`：Spring MVC视图后缀。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/10WallsAppB.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/12WallsAppD.md) |
