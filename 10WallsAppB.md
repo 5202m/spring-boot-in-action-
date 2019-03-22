@@ -12,3 +12,5 @@ __表B-1 Spring Boot起步依赖__
 
 | 起步依赖（Group ID：`org.springframework.boot`）| 传递依赖 |
 |---------------------------------------------|--------|
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/09WallsAppA.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/11WallsAppC.md) |
