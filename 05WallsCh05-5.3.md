@@ -47,3 +47,5 @@ __代码清单5-4 测试`ReadingListController`的Spock说明__
 Spock说明也可以通过`spring test tests`来运行`ReadingListControllerSpec`。运行方式和基于JUnit的测试如出一辙。
 
 一旦写好代码，通过了全部测试，你就该部署项目了。让我们来看看Spring Boot CLI是如何帮助产生一个可部署的产物的。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.4.md) |
