@@ -55,3 +55,5 @@ __表8-1 Spring Boot部署选项__
 探索这些场景的时候，我们还要处理一件事。在开发应用程序时我们使用了嵌入式的H2数据库，现在得把它替换成生产环境所需的数据库了。
 
 首先，让我们看看如何将阅读列表应用程序构建为WAR文件。这样才能把它部署到Java应用服务器里，比如Tomcat、WebSphere或WebLogic。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.5.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/08WallsCh08-8.2.md) |
