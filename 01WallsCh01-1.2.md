@@ -17,7 +17,7 @@ Spring Boot CLI有好几种安装方式：
 
 我们分别看一下这几种方式。除此之外，还要了解如何安装Spring Boot CLI的命令行补全支持，如果你在BASH或zsh shell里使用CLI，这会非常有用（抱歉了，各位Windows用户）。先来看看如何用分发包手工安装Spring Boot CLI吧。
 
-####1.手工安装Spring Boot CLI
+#### 1.手工安装Spring Boot CLI
 
 安装Spring Boot CLI最直接的方法大约是下载、解压，随后将它的bin目录添加到系统路径里。你可以从以下两个地址下载分发包：
 
@@ -38,7 +38,7 @@ $ spring --version
 
 虽然这是手工安装，但一切都很容易，而且不要求你安装任何附加的东西。如果你是Windows用户，也别无选择，这是唯一的安装方式。但如果你使用的是Unix机器，而且想要稍微自动化一点的方式，那么可以试试Software Development Kit Manager。
 
-####2.使用Software Development Kit Manager进行安装
+#### 2.使用Software Development Kit Manager进行安装
 
 软件开发工具管理包（Software Development Kit Manager，SDKMAN，曾用简称GVM）也能用来安装和管理多版本Spring Boot CLI。使用前，你需要先从[http://sdkman.io](http://sdkman.io)获取并安装SDKMAN。最简单的安装方式是使用命令行：
 ```
@@ -75,7 +75,7 @@ $ sdk default springboot 1.3.0.RELEASE
 ```
 使用SDKMAN来管理Spring Boot CLI有一个好处，你可以便捷地在Spring Boot的不同版本之间切换。这样你可以在正式发布前试用快照版本（snapshot）、里程碑版本（milestone）和尚未正式发布的候选版本（release candidate），试用后再切回稳定版本进行其他工作。
 
-####3.使用Homebrew进行安装
+#### 3.使用Homebrew进行安装
 
 如果要在OS X的机器上进行开发，你还可以用Homebrew来安装Spring Boot CLI。Homebrew是OS X的包管理器，用于安装多种不同应用程序和工具。要安装Homebrew，最简单的方法就是运行安装用的Ruby脚本：
 ```
@@ -98,7 +98,7 @@ $ spring --version
 ```
 这条命令应该会返回刚才安装的Spring Boot版本号。你也可以运行代码清单1-1看看。
 
-####4.使用MacPorts进行安装
+#### 4.使用MacPorts进行安装
 
 OS X用户还有另一种安装Spring Boot CLI的方法，即使用MacPorts，这是Mac OS X上另一个流行的安装工具。要使用MacPorts来安装Spring Boot CLI，必须先安装MacPorts，而MacPorts还要求安装Xcode。此外，使用不同版本的OS X时，MacPorts的安装步骤也会有所不同。因此我建议你根据[https://www.macports.org/install.php](https://www.macports.org/install.php)的安装指南来安装MacPorts。
 
@@ -112,7 +112,7 @@ $ spring --version
 ```
 这条命令应该会返回刚才安装的Spring Boot的版本号。你也可以运行代码清单1-1看看。
 
-####5.开启命令行补全
+#### 5.开启命令行补全
 
 Spring Boot CLI为基于CLI的应用程序的运行、打包和测试提供了一套好用的命令。而且，每个命令都有好多选项。要记住这些东西实属不易，命令行补全能帮你记起怎么使用Spring Boot CLI。
 
@@ -136,7 +136,7 @@ Spring Boot CLI为Spring Boot提供了快速上手和构建简单原型应用程
 
 尽管如此，与大部分Java项目的开发相比，Spring Boot CLI的流程还是不太符合常规。通常情况下，Java项目用Gradle或Maven这样的工具构建出WAR文件，再把这些文件部署到应用服务器里。即便CLI模型让你感到不太舒服，你仍然可以在传统方式下充分利用大部分Spring Boot特性。***{![只是要放弃那些用到Groovy语言灵活性的特性，比如自动依赖和`import`解析。]}***Spring Initializr可以成为你万里长征的第一步。
 
-###1.2.2 使用Spring Initializr初始化Spring Boot项目
+### 1.2.2 使用Spring Initializr初始化Spring Boot项目
 
 万事开头难，你需要设置一个目录结构存放各种项目内容，创建构建文件，并在其中加入各种依赖。Spring Boot CLI消除了不少设置工作，但如果你更倾向于传统Java项目结构，那你应该看看Spring Initializr。
 
@@ -151,7 +151,7 @@ Spring Initializr有几种用法：
 
 下面分别看看这几种用法，先从Web界面开始。
 
-####1.使用Spring Initializr的Web界面
+#### 1.使用Spring Initializr的Web界面
 
 要使用Spring Initializr，最直接的办法就是用浏览器打开[http://start.spring.io](http://start.spring.io)，你应该能看到类似图1-1的一个表单。
 
@@ -193,7 +193,7 @@ __图1-2 Initializr创建的项目，提供了构建Spring Boot应用程序所�
 
 你很可能会把Initializr生成的项目导入IDE。如果你用的IDE是Spring Tool Suite，则可以直接在IDE里创建项目。下面来看看Spring Tool Suite是怎么创建Spring Boot项目的。
 
-####2.在Spring Tool Suite里创建Spring Boot项目
+#### 2.在Spring Tool Suite里创建Spring Boot项目
 
 长久以来，Spring Tool Suite***{![Spring Tool Suite是Eclipse IDE的一个发行版，增加了诸多能辅助Spring开发的特性。你可以从[http://spring.io/tools/sts](http://spring.io/tools/sts)下载Spring Tool Suite。]}***一直都是开发Spring应用程序的不二之选。从3.4.0版本开始，它就集成了Spring Initializr，这让它成为开始上手Spring Boot的好方法。
 
@@ -221,7 +221,7 @@ Site Info部分简单描述了将要用来访问Initializr的URL，大多数情�
 
 注意，Spring Tool Suite是通过REST API与Initializr交互的，因此只有连上Initializr它才能正常工作。如果你的开发机离线，或者Initializr被防火墙阻断了，那么Spring Tool Suite的Spring Starter Project向导是无法使用的。
 
-####3.在IntelliJ IDEA里创建Spring Boot项目
+#### 3.在IntelliJ IDEA里创建Spring Boot项目
 
 IntelliJ IDEA是非常流行的IDE，IntelliJ IDEA 14.1已经支持Spring Boot了！***{![你可以从[https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)获取IntelliJ IDEA。它是一款商业IDE，这意味着你需要付费使用。但是你可以下载试用版，它对开源项目免费。]}***
 
@@ -251,7 +251,7 @@ __图1-8 IntelliJ IDEA的Spring Boot初始化向导的最后一屏__
 
 最后一屏问你项目叫什么名字，还有要在哪里创建项目。一切准备就绪之后，点击Finish按钮，就能在IDE里得到一个空的Spring Boot项目了。
 
-####4.在Spring Boot CLI里使用Initializr
+#### 4.在Spring Boot CLI里使用Initializr
 
 如前文所述，如果你想仅仅写代码就完成Spring应用程序的开发，那么Spring Boot CLI是个不错的选择。然而，Spring Boot CLI的功能还不限于此，它有一些命令可以帮你使用Initializr，通过它上手开发更传统的Java项目。
 
