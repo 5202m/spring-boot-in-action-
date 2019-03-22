@@ -181,3 +181,5 @@ __代码清单2-4 使用Spring Boot的Maven插件及父起步依赖__
 遗憾的是，Gradle并没有Maven这样的依赖管理功能，为此Spring Boot Gradle插件提供了第三个特性，它为很多常用的Spring及其相关依赖模拟了依赖管理功能。其结果就是，代码清单2-3的build.gradle里也没有为各项依赖指定版本。
 
 说起依赖，无论哪个构建说明文件，都只有五个依赖，除了你手工添加的H2之外，其他的Artifact ID都有spring-boot-starter-前缀。这些都是Spring Boot起步依赖，它们都有助于Spring Boot应用程序的构建。让我们来看看它们究竟都有哪些好处。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-1.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.2.md) |
