@@ -33,3 +33,5 @@ __代码清单6-5 GSP编写的阅读列表应用程序主视图__
 >P115 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-6.1.png)
 
 __图6-1 使用了GSP模板的阅读列表__
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/06WallsCh06-6.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/06WallsCh06-6.3.md) |
