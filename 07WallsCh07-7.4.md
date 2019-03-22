@@ -384,3 +384,5 @@ return Health.down().withDetail("reason", e.getMessage()).build();
 ```
 
 如果你有很多附加信息，可以多次调用`withDetail()`方法，每次设置一个想要放入健康记录的附加字段。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.5.md) |
