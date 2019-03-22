@@ -191,3 +191,5 @@ $ spring run .
 说起`DataSource` Bean，这只是Spring Boot自动配置创建的众多Bean中的一个。Spring Boot还自动配置了很多Bean来支持Spring MVC中的Thymeleaf模板。正是由于我们使用`@Grab`注解向Classpath里添加了H2和Thymeleaf，这才触发了针对嵌入式H2数据库和Thymeleaf的自动配置。
 
 `@Grab`注解的作用是方便添加CLI无法自动解析的依赖。虽然它看上去很简单，但实际上这个小小的注解作用远比你想象得要大。让我们仔细看看这个注解，看看Spring Boot CLI是如何通过一个Artifact名称找到这么多常用依赖，看看整个依赖解析的过程是如何配置的。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/04WallsCh04-4.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.2.md) |
