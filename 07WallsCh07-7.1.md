@@ -667,3 +667,5 @@ info:
 ```
 
 向/info端点添加属性只是定制Actuator行为的众多方式之一。稍后在7.4节里，我们还会看到其他配置与扩展Actuator的方式。但现在，先让我们来看看如何保护Actuator的端点。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/06WallsCh06-6.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.2.md) |
