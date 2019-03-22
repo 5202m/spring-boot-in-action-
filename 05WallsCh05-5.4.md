@@ -26,4 +26,4 @@ Spring Boot CLI利用了Spring Boot自动配置和起步依赖的便利之处，
 
 Spring Boot和Groovy结合得很好，两者的简洁性相辅相成。在第6章，我们还会看到Spring Boot和Groovy是如何协同的——Spring Boot是Grails最新版本的核心。
 
-| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/06WallsCh06-6.6.md) |
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/06WallsCh06-6.1.md) |
