@@ -68,3 +68,5 @@ Spring Boot消除了Spring应用程序中经常要用到的很多样板式配置
 Spring Boot还自动配置了一个简单的白标错误页，虽然它比异常和栈跟踪要更友好一点，但在艺术性方面还有很大的提升空间。幸运的是，Spring Boot提供了好几种选项来自定义或完全替换这个白标错误页，以满足应用程序的特定风格。
 
 现在我们已经用Spring Boot写了一个完整的应用程序，我们会验证它能否满足预期。除了自己在浏览器里手工点点之外，我们还应该要写一些自动化、可重复运行的测试来检查这个应用程序，证明它能正确运作。这也是我们在第4章里要做的事。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/04WallsCh04-4.1.md) |
