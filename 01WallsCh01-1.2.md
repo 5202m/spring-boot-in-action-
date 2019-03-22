@@ -155,7 +155,7 @@ Spring Initializr有几种用法：
 
 要使用Spring Initializr，最直接的办法就是用浏览器打开[http://start.spring.io](http://start.spring.io)，你应该能看到类似图1-1的一个表单。
 
->P13 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P13 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.1.png)
 
 __图1-1 Spring Initializr是生成空Spring项目的Web应用程序，可以视为开发过程的第一步__
 
@@ -178,7 +178,7 @@ __图1-1 Spring Initializr是生成空Spring项目的Web应用程序，可以视
 
 点击“Generate Project”，就能获得一个名为myapp.zip的ZIP文件。解压后的项目结构同图1-2类似。
 
->P14 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P14 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.2.png)
 
 __图1-2 Initializr创建的项目，提供了构建Spring Boot应用程序所需的基本内容__
 
@@ -199,7 +199,7 @@ __图1-2 Initializr创建的项目，提供了构建Spring Boot应用程序所�
 
 要在Spring Tool Suite里创建新的Spring Boot应用程序，在File菜单里选中New > Spring Starter Project菜单项，随后Spring Tool Suite会显示一个与图1-3相仿的对话框。
 
->P16 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P16 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.3.png)
 
 __图1-3 Spring Tool Suite集成了Spring Initializr，可以在IDE里创建并直接导入Spring Boot项目__
 
@@ -207,7 +207,7 @@ __图1-3 Spring Tool Suite集成了Spring Initializr，可以在IDE里创建并�
 
 如果你想在文件系统上指定项目创建的位置，或者把它加入IDE里的特定工作集，就点击Next按钮。你会看到第二个对话框，如图1-4所示。
 
->P16 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P16 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.4.png)
 
 __图1-4 Spring Starter Project对话框的第2页可以让你指定在哪里创建项目__
 
@@ -227,25 +227,25 @@ IntelliJ IDEA是非常流行的IDE，IntelliJ IDEA 14.1已经支持Spring Boot�
 
 要在IntelliJ IDEA里创建新的Spring Boot应用程序，在File菜单里选择New > Project。你会看到几屏内容（图1-5是第一屏），问的问题和Initializr的Web应用程序以及Spring Tool Suite类似。
 
->P17 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P17 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.5.png)
 
 __图1-5 IntelliJ IDEA里Spring Boot初始化向导的第一屏__
 
 在首先显示的这一屏中，在左侧项目选择里选中Spring Initializr，随后会提示你选择一个Project SDK（基本上就是这个项目要用的Java SDK），同时选择Initializr Web服务的位置。除非你在使用自己的Initializr，否则应该不做任何修改直接点Next按钮，之后就到了图1-6。
 
->P18 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P18 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.6.png)
 
 __图1-6 在IntelliJ IDEA的Spring Boot初始化向导里指定项目信息__
 
 Spring Boot初始化向导的第二屏要求你提供项目的一些基本信息，比如项目名称、Maven Group和Artifact、Java版本，以及你是想用Maven还是Gradle来构建项目。描述好项目信息之后，点击Next按钮就能看到第三屏了，如图1-7所示。
 
->P19 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P19 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.7.png)
 
 __图1-7 在IntelliJ IDEA的Spring Boot初始化向导里选择项目依赖__
 
 第二屏向你询问项目的基本信息，第三屏就开始问你要往项目里添加什么依赖了。和之前一样，屏幕里的复选框和Spring Boot起步依赖是对应的。选完之后点击Next就到了向导的最后一屏，如图1-8所示。
 
->P20 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+>P20 ![Image text](https://raw.githubusercontent.com/5202m/spring-boot-in-action-zh-cn/master/imgs/figure-1.8.png)
 
 __图1-8 IntelliJ IDEA的Spring Boot初始化向导的最后一屏__
 
