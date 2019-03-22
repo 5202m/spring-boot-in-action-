@@ -114,3 +114,5 @@ management.context-path=/mgmt
 最后，我们学习了如何保护Actuator的端点，只让经过授权的用户访问它们。
 
 接下来，在第8章里，我们将看到如何让应用程序从编码阶段过渡到生产阶段，了解Spring Boot如何协助我们在多种不同的平台上进行部署，包括传统的应用容器和云平台。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.4.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/08WallsCh08-8.1.md) |
