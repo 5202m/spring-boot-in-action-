@@ -115,3 +115,5 @@ compile("com.fasterxml.jackson.core:jackson-databind:2.3.1")
 不管什么情况，在覆盖Spring Boot起步依赖引入的传递依赖时都要多加小心。虽然不同的版本放在一起也许没什么问题，但你要知道，起步依赖中各个依赖版本之间的兼容性都经过了精心的测试。应该只在特殊的情况下覆盖这些传递依赖（比如新版本修复了一个bug）。
 
 现在我们有了一个空的项目结构，构建说明文件也准备好了，是时候开发应用程序了。我们会让Spring Boot来处理配置细节，而我们自己则专注于编写阅读列表功能相关的代码。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-2.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.3.md) |
