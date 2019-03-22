@@ -393,3 +393,5 @@ liquibase:
 Spring Boot的自动配置让Liquibase和Flyway的使用变得轻而易举。但实际上所有数据库迁移库都有更多功能，这里不便一一列举。建议大家参考官方文档，了解更多详细内容。
 
 我们已经了解了如何将Spring Boot应用程序部署到传统的Java应用服务器上，基本就是创建一个`SpringBootServletInitializer`的子类，调整构建说明来生成一个WAR文件，而非JAR文件。接下来我们会看到，Spring Boot应用程序在云端使用更方便。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/08WallsCh08-8.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/08WallsCh08-8.3.md) |
