@@ -450,3 +450,5 @@ logging:
 另一方面，第一段并未指定`spring.profiles`，因此这里的属性对全部Profile都生效，或者对那些未设置该属性的激活Profile生效。
 
 除了自动配置和外置配置属性，Spring Boot还有其他简化常用开发任务的绝招：它自动配置了一个错误页面，在应用程序遇到错误时显示。下一节，我们会介绍Spring Boot的错误页，以及如何定制这个错误页来适应我们的应用程序。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.3.md) |
