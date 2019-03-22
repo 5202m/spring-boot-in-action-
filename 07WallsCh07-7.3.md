@@ -25,3 +25,5 @@ __图7-7 调用该端点的关闭按钮__
 __图7-8 应用程序立马关闭__
 
 在那以后，你的应用程序就关闭了。应用已经关闭，自然就没办法发布其他用来重启它的MBean操作。你必须重启，和一开始的启动方式一样。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/07WallsCh07-7.4.md) |
