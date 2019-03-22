@@ -150,3 +150,5 @@ public class SpringBootWebSecurityConfiguration {
 `@ConditionalOnMissingBean`注解要求当下没有`WebSecurityConfiguration`类型的Bean。虽然表面上我们并没有这么一个Bean，但通过在`SecurityConfig`上添加`@EnableWebSecurity`注解，我们实际上间接创建了一个`WebSecurityConfiguration` Bean。所以在自动配置时，这个Bean就已经存在了，`@ConditionalOnMissingBean`条件不成立，`SpringBootWebSecurityConfiguration`提供的配置就被跳过了。
 
 虽然Spring Boot的自动配置和`@ConditionalOnMissingBean`让你能显式地覆盖那些可以自动配置的Bean，但并不是每次都要做到这种程度。让我们来看看怎么通过设置几个简单的配置属性调整自动配置组件吧。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.2.md) |
