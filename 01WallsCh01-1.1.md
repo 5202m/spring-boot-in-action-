@@ -173,4 +173,4 @@ Actuator通过Web端点和shell界面向外界提供信息。如果要借助shel
 
 现在，你应该对Spring Boot有了大概的认识，是时候构建你的第一个Spring Boot应用程序了。先从重要的事情开始，该怎么入手呢？
 
-|[PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/00WallsFM.md)|[NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-1.2.md)|
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/00WallsFM.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-1.2.md) |
