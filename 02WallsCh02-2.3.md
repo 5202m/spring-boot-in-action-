@@ -374,4 +374,4 @@ protected static class JdbcTemplateConfiguration {
 
 由此可见，Spring Boot自动配置承担起了配置Spring的重任，因此你能专注于编写自己的应用程序。
 
-| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-2.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.4.md) |
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.4.md) |
