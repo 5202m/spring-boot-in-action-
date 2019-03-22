@@ -116,4 +116,4 @@ compile("com.fasterxml.jackson.core:jackson-databind:2.3.1")
 
 现在我们有了一个空的项目结构，构建说明文件也准备好了，是时候开发应用程序了。我们会让Spring Boot来处理配置细节，而我们自己则专注于编写阅读列表功能相关的代码。
 
-| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-2.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.3.md) |
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.3.md) |
