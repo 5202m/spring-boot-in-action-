@@ -219,3 +219,5 @@ Spring Boot应用程序的构建说明经常会配置为生成可执行的JAR文
 虽然Heroku不能像Cloud Foundry那样自动替换数据源的Bean，但在本章最后，我们还是看到了如何通过添加Spring Cloud Foundry库来实现一样的效果。这里使用绑定的数据库服务，而非内嵌式数据库。
 
 在本章，我们还了解了如何在Spring Boot里使用Flyway和Liquibase这样的数据库迁移工具。在初次部署应用程序时，我们通过数据库迁移的方式完成了数据库的初始化，在后续的部署过程中，我们可以按需修改数据库。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/08WallsCh08-8.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/09WallsAppA.md) |
