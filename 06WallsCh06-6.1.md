@@ -122,3 +122,5 @@ __代码清单6-4 Groovy版本的`SecurityConfig`__
 此刻，你可以通过各种运行Spring Boot应用程序的方法来启动阅读列表应用程序。启动后，应用程序应该能像从前一样工作。只有你我知道持久化机制已经被改变了。
 
 除了GORM，Grails应用程序通常还会用Groovy Server Pages将模型数据以HTML的方式呈现给浏览器。6.2节应用程序的Grails化还会继续。我们会把Thymeleaf替换为等价的GSP。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.4.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/06WallsCh06-6.2.md) |
