@@ -159,3 +159,5 @@ spring.devtools.livereload.enabled=false
 ```
 
 要是你想覆盖这些配置，可以在每个项目的application.properties或application.yml文件里设置特定于每个项目的属性。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/08WallsCh08-8.3.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/10WallsAppB.md) |
