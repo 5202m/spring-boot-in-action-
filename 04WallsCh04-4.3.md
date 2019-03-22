@@ -135,3 +135,5 @@ Spring Framework以JUnit类运行器的方式提供了集成测试支持，JUnit
 Spring Boot还支持容器内测试Web应用程序，让你能用和生产环境一样的容器启动应用程序。这样一来，测试在验证应用程序行为的时候，会更加接近真实的运行环境。
 
 此时我们已经构建了一个相当完整的应用程序（虽然有点简单），它利用Spring Boot的起步依赖和自动配置来处理低级工作，让我们专心开发应用程序。我们也看到了如何使用Spring Boot的支持来测试应用程序。在后续几章里，我们会看到一些不同的东西，了解让Spring Boot应用程序开发更加简单的Groovy。在第5章，我们会先了解Grails框架的一些特性，看看它们在Spring Boot中的用途。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/04WallsCh04-4.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/05WallsCh05-5.1.md) |
