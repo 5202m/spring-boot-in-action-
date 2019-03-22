@@ -151,4 +151,4 @@ public class SpringBootWebSecurityConfiguration {
 
 虽然Spring Boot的自动配置和`@ConditionalOnMissingBean`让你能显式地覆盖那些可以自动配置的Bean，但并不是每次都要做到这种程度。让我们来看看怎么通过设置几个简单的配置属性调整自动配置组件吧。
 
-| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.1.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.2.md) |
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.4.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/03WallsCh03-3.2.md) |
