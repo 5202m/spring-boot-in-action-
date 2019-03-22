@@ -373,3 +373,5 @@ protected static class JdbcTemplateConfiguration {
 - 因为Classpath里有Tomcat（通过Web起步依赖传递引用），所以会启动一个嵌入式的Tomcat容器，监听8080端口。
 
 由此可见，Spring Boot自动配置承担起了配置Spring的重任，因此你能专注于编写自己的应用程序。
+
+| [PREV](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/01WallsCh01-2.2.md) | [NEXT](https://github.com/5202m/spring-boot-in-action-zh-cn/blob/master/02WallsCh02-2.4.md) |
